@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/gaslight.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/tomorrow-night-bright.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background="dark" >
+					<h1 class="white">Apprenticeship</h1>
+					<h3 class="white">The (almost) developers are out there</h3>
+					<p class="speaker-block">
+						<small><a href="#">Chris Nelson</a> | <a href="http://twitter.com/#">@superchris</a></small>
+					</p>
+					<div class="logo-block"></div>
+					<p>
+						<small><a href="https://teamgaslight.com">teamgaslight.com</a></small>
+					</p>
+				</section>
+				<section>
+					<blockquote>
+						"It is a truth universally acknowledged, that a company in possession of a good fortune, must be in want of a software developer."
+					</blockquote>
+					-Jane Austen
+				</section>
+				<section>
+					<h3>There have never been more people wanting to become developers</h3>
+					<h4>They just need a little help</h4>
+				</section>
+				<section>
+					<h3>The Apprenticeship model</h3>
+					<ul>
+						<li>6 months</li>
+						<li>1 experienced mentor</li>
+						<li>2-4 apprentices</li>
+						<li>Joining a team</li>
+						<li>Shipping real code</li>
+					</ul>
+				</section>
+				<section data-background="dark">
+					<h3 class="white">Hire for slope, not y-intercept</h3>
+				</section>
+				<section>
+					<h2>Apprentices make the whole team better</h2>
+				</section>
+				<section data-background="dark">
+					<h2 class="white">Apprentices come in pairs</h2>
+				</section>
+				<section>
+					<h2>You can do this!</h2>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
