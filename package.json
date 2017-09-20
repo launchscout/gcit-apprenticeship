@@ -7,7 +7,7 @@
   "main": "js/reveal.js",
   "scripts": {
     "test": "grunt test",
-    "start": "grunt serve"
+    "start": "live-server ."
   },
   "author": {
     "name": "Hakim El Hattab",
@@ -22,6 +22,7 @@
     "node": "~4.1.1"
   },
   "dependencies": {
+    "apollo-phoenix-websocket": "^0.6.2",
     "express": "~4.13.3",
     "grunt-cli": "~0.1.13",
     "mustache": "~2.2.1",
@@ -38,7 +39,8 @@
     "grunt-contrib-watch": "~0.6.1",
     "grunt-sass": "~1.1.0-beta",
     "grunt-zip": "~0.17.1",
-    "node-sass": "~3.3.3"
+    "node-sass": "~3.3.3",
+    "live-server": ">= 0.0.0"
   },
   "license": "MIT"
 }
